@@ -1,0 +1,36 @@
+{
+    "name": "asm",
+    "description": "deletes channel and group messages in Telegram",
+    "keywords": [
+        "telegram",
+        "channel"
+    ],
+    "website": "https://github.com/Nimeshchandhra1/Asm",
+    "repository": "https://github.com/Nimeshchandhra1/Asm",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your bot token",
+            "value": ""
+        },
+        "API_ID": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Get this value from https://my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
