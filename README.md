@@ -1,16 +1,2 @@
-# antiservicemessage
-anti service message bot in pyrogram 
-
-# work in groups and channels
-
-# how to run
- 
- git clone https://github.com/iiiiii1wepfj/antiservicemessage.git
- 
- cd antiservicemessage
- 
- pip3 install -r requirements.txt
- 
- edit the apt hash and api id and bot token in bot.py
- 
-python3 bot.py
+<a href="https://heroku.com/deploy?template=https://github.com/Nimeshchandhra1/Asm">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
