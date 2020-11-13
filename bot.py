@@ -1,16 +1,12 @@
-from os import environ
 from pyrogram import Client,filters
 
-API_ID = environ.get('API_ID')
-API_HASH = environ.get('API_HASH')
-BOT_TOKEN = environ.get('BOT_TOKEN')
-
-app = Client('asm',
-             api_id=API_ID,
-             api_hash=API_HASH,
-             bot_token=BOT_TOKEN)
+app_id = f8f459d4ee20923d555041cfd18ddf1f
+app_key = '1997542'
+token = "1443581629:AAGsCCwVhSoYdpC6CQdrhFbPyk2hc4dW0_w"
 
 
+
+app = Client("antiservicemessage", app_id, app_key, bot_token=token)
 
 DONATESTARTTEXT = """
 text  
